@@ -43,7 +43,7 @@ const DealershipProvider: React.FC<{
       dealerShips
         ? {
             ...dealerShips,
-            changeDealerShip: (dealerShip: DealerShip): void => {
+            changeDealerShip: (_dealerShip: DealerShip): void => {
               // add a function to switch the dealership
             },
           }
@@ -58,6 +58,6 @@ const DealershipProvider: React.FC<{
   );
 };
 
-const useDealerShipContext = () => useContext(Context);
+const useDealerShipContext = (): DealerShipsContract | undefined => useContext(Context);
 
 export { DealershipProvider, useDealerShipContext };
