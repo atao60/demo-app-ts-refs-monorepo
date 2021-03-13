@@ -1,0 +1,15 @@
+{
+    "name": "@atao60/demo-app-ts-refs-monorepo",
+    "version": "0.0.1",
+    "license": "MIT",
+    "private": true,
+    "author": "Pierre Raoul <atao60.dev@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/atao60/demo-app-ts-refs-monorepo.git"
+    },
+    "bugs": {
+        "url": "https://github.com/atao60/demo-app-ts-refs-monorepo/issues"
+    },
+    "homepage": "https://github.com/atao60/demo-app-ts-refs-monorepo#readme"
+}
