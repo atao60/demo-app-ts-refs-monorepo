@@ -1,0 +1,21 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "src",
+        "baseUrl": ".",
+        "paths": {
+            "@atao60/demo-app-ts-refs-monorepo-dealership-contract": ["../../../shared/contracts/dealerships"],
+            "@atao60/demo-app-ts-refs-monorepo-inventory-app": ["../../apps/inventory/main"]
+        }
+    },
+    "references": [
+        {
+            "path": "../../apps/inventory/main"
+        },
+        {
+            "path": "../../shared/contracts/dealerships"
+        }
+    ],
+    "exclude": ["dist"]
+}

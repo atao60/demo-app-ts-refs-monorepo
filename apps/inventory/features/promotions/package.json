@@ -1,0 +1,10 @@
+{
+    "name": "@atao60/demo-app-ts-refs-monorepo-promotion-feature",
+    "version": "0.0.0",
+    "description": "Example Promotion feature",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^17.0.1"
+    }
+}
